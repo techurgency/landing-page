@@ -1,0 +1,195 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: Arial, serif;
+  /*Changing font, left to right if fails */
+}
+
+h1 {
+  font-size: 5rem;
+  /* 100% = 16px, rem allows for it to be static */
+  /*  width: 10%; fits object in the percentage of the screen */
+  margin: 50px auto 0px auto;
+  /* margin top right bottom left*/
+  font-family: cursive;
+  text-align: center;
+  color: #66BFBF;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: Roboto;
+  color: #66BFBF;
+  font-weight: normal;
+  line-height: 2;
+  padding-bottom: 10px;
+}
+
+h3, a {
+  color: #11999E;
+}
+
+a {
+  font-family: roboto;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #eaf6f6;
+}
+
+hr{
+  border: dotted #dddddd 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+.intro {
+width: 25%;
+margin: auto;
+}
+
+.top {
+  background-color: #c9dfe3;
+  position: relative;
+  padding-top: 70px;
+}
+
+.middle {
+  margin: 70px 0;
+  /*  background-color: red;
+  width: 200px;
+  height: 200px;
+  */
+}
+
+.bottom {
+  background-color: #66BFBF;
+  padding: 50px 0 16px;
+  /*  width: 200px;
+  height: 200px; */
+}
+
+.par {
+  text-decoration: underline;
+}
+
+p {
+  line-height: 2;
+  /* visibility: hidden; hides the object */
+}
+
+.top-cloud {
+  position: absolute;
+  margin-left: 12%;
+  /* margin-left: 10%; moves the object to the right */
+  /* position: relative; left: 10px; pushes the object from where it originates it doesnt affect anything else on screen */
+}
+
+.bottom-cloud {
+  position: absolute;
+  margin-left: 2%;
+}
+
+.chillies {
+
+  width: 10%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+}
+
+.trophy-img {
+  width: 25%;
+  float:right;
+  margin-left: 30px;
+
+}
+
+.code-img {
+  width: 20%;
+  float:left;
+  margin-right: 30px;
+
+}
+
+.code-skill-description {
+  clear: right; /* clear is anti-float */
+  text-align: center;
+}
+
+.trophy-skill-description {
+  clear: left;
+  text-align: center;
+}
+
+.contact-message {
+  width: 45%;
+ margin: 40px auto 60px;
+}
+
+.btn-1 {
+  background: #07e3eb;
+background-image: -webkit-linear-gradient(top, #07e3eb, #2980b9);
+background-image: -moz-linear-gradient(top, #07e3eb, #2980b9);
+background-image: -ms-linear-gradient(top, #07e3eb, #2980b9);
+background-image: -o-linear-gradient(top, #07e3eb, #2980b9);
+background-image: linear-gradient(to bottom, #07e3eb, #2980b9);
+-webkit-border-radius: 15;
+-moz-border-radius: 15;
+border-radius: 15px;
+font-family: roboto;
+color: #ffffff;
+font-size: 20px;
+padding: 10px 20px 10px 20px;
+text-decoration: none;
+   }
+
+.btn-1:hover {
+  background: #93edf0;
+  background-image: -webkit-linear-gradient(top, #93edf0, #23d1e8);
+  background-image: -moz-linear-gradient(top, #93edf0, #23d1e8);
+  background-image: -ms-linear-gradient(top, #93edf0, #23d1e8);
+  background-image: -o-linear-gradient(top, #93edf0, #23d1e8);
+  background-image: linear-gradient(to bottom, #93edf0, #23d1e8);
+  text-decoration: none;
+}
+
+
+.copyright {
+  padding: 20px 0;
+}
+/*
+body {
+  margin: 0;
+}
+.red {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  position:absolute;
+  left:200px;
+  top:200px;
+}
+.blue {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 100px;
+  top:100px;
+}
+.yellow {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  position: fixed; allows for the object to be fixed ex: nav bar
+
+}
+*/
